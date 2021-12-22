@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 21:57:09 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/20 15:47:13 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 17:34:20 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,12 @@
 # include <unistd.h>
 
 void	ft_putchar(char c);
+void	ft_putstr(char *str);
 int		ft_printstr(char *str);
 int		ft_printnbr(int n);
 int		ft_print_u(unsigned int nbr);
 int		ft_print_x(unsigned int num, char format);
+int		ft_print_p(unsigned int long num);
 int     ft_printf(const char *str, ...);
 
 

@@ -6,11 +6,11 @@
 #    By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/16 23:00:40 by moel-had          #+#    #+#              #
-#    Updated: 2021/12/17 19:54:50 by moel-had         ###   ########.fr        #
+#    Updated: 2021/12/22 16:44:37 by moel-had         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = ft_printstr.c ft_printnbr.c ft_print_u.c ft_x.c ft_printf.c\
+SRCS = ft_printstr.c ft_printnbr.c ft_print_u.c ft_x.c ft_printf.c ft_p.c\
 
 NAME = libftprintf.a
 

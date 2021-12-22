@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/16 23:26:07 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/20 15:47:46 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:20:47 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,10 @@ int	ft_formats(va_list args, char format)
 		len += ft_print_u(va_arg(args, unsigned int));
 	else if (format == 'x' || format == 'X')
 		len += ft_print_x(va_arg(args, unsigned int), format);
+	else if (format == 'p')
+		len += ft_print_p(va_arg(args, unsigned long int));
+	else if (format == '%')
+		len += ft_printchar('%');
 	return (len);
 }
 
@@ -66,8 +70,15 @@ int	main()
 {
 	char	c = 'a';
 	char	*s = "Hello";
-	int		i = 54;
+	int		i = 60;
 
 	printf("%d\n", ft_printf("%c\n%s\n%d\n%x\n%u\n", c, s, i, i, i));
+}
+*/
+/*
+int	main()
+{
+	int	a = 0;
+	ft_printf("%p\n", &a);
 }
 */
