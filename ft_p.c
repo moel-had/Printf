@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 21:23:12 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:39:18 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:51:36 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ static void	ft_put_p(unsigned long int num)
 		ft_putchar(num - 10 + 'a');
 }
 
-int		ft_print_p(unsigned long int num)
+int	ft_print_p(unsigned long int num)
 {
 	int	len;
 

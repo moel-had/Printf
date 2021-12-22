@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/12 21:07:34 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/16 23:19:15 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:58:11 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ static void	ft_put_x(unsigned int num, char format)
 			ft_putchar(num - 10 + 'A');
 	}
 }
-
 
 int	ft_print_x(unsigned int num, char format)
 {

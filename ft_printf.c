@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/16 23:26:07 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:20:47 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:54:01 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int	ft_formats(va_list args, char format)
 
 int	ft_printf(const char *str, ...)
 {
-	int	    i;
-	va_list args;
+	int		i;
+	va_list	args;
 	int		len;
 
 	i = 0;
@@ -64,7 +64,6 @@ int	ft_printf(const char *str, ...)
 	return (len);
 }
 
-#include <stdio.h>
 /*
 int	main()
 {

@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 16:09:57 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 17:29:51 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:57:25 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_putstr(char *str)
+static void	ft_putstr(char *str)
 {
 	int	i;
 
@@ -30,7 +30,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int		ft_strlen(char *str)
+static int	ft_strlen(char *str)
 {
 	int	i;
 
@@ -40,7 +40,7 @@ int		ft_strlen(char *str)
 	return (i);
 }
 
-int		ft_printstr(char *str)
+int	ft_printstr(char *str)
 {
 	int	len;
 

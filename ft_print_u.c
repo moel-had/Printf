@@ -6,7 +6,7 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/16 22:04:45 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/16 23:18:06 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/22 18:52:24 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ static void	ft_putunbr(unsigned int nbr)
 int	ft_print_u(unsigned int nbr)
 {
 	int	len;
+
 	len = ft_ulen(nbr);
 	ft_putunbr(nbr);
 	return (len);
