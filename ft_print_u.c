@@ -6,12 +6,10 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/16 22:04:45 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:52:24 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/25 13:42:53 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
 #include "ft_printf.h"
 
 static int	ft_ulen(unsigned int num)

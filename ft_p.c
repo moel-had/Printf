@@ -6,12 +6,11 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 21:23:12 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:51:36 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/25 14:05:58 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 static int	ft_len(unsigned long int num)
 {
@@ -46,7 +45,7 @@ int	ft_print_p(unsigned long int num)
 	len = 0;
 	len += ft_printstr("0x");
 	if (num == 0)
-		len += write(1, "0", 1);
+		len += ft_printchar('0');
 	else
 	{
 		ft_put_p(num);

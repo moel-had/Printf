@@ -6,11 +6,10 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 16:09:57 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:57:25 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/25 13:46:36 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "ft_printf.h"
 
 void	ft_putchar(char c)

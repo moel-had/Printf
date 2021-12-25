@@ -6,12 +6,10 @@
 /*   By: moel-had <moel-had@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/16 21:17:50 by moel-had          #+#    #+#             */
-/*   Updated: 2021/12/22 18:55:59 by moel-had         ###   ########.fr       */
+/*   Updated: 2021/12/25 13:46:27 by moel-had         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
 #include "ft_printf.h"
 
 static int	ft_nbrlen(int nbr)
